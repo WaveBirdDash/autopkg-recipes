@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Copyright 2026 Mario Panighetti.
+	<string>Copyright 2024 Mario Panighetti.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
@@ -13,7 +13,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	<key>Description</key>
 	<string>Downloads the latest version of Aerial Companion from the vendor, creates an installer package, uploads it to Jamf Pro, then adds it to a Self Service policy.</string>
 	<key>Identifier</key>
-	<string>com.github.wavebirddash.jamf-upload.Aerial Companion</string>
+	<string>com.github.mpanighetti.jamf-upload.Aerial Companion</string>
 	<key>Input</key>
 	<dict>
 		<key>PACKAGE_CATEGORY</key>
@@ -30,9 +30,18 @@ Unless required by applicable law or agreed to in writing, software distributed 
 	<key>MinimumVersion</key>
 	<string>2.0.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.wavebirddash.pkg.Aerial Companion</string>
+	<string>com.github.mpanighetti.pkg.Aerial Companion</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>warning_message</key>
+				<string>This recipe will be retired after March 31st, 2026. Please use the recipes with identifier prefix com.github.wavebirddash to avoid disruption.</string>
+			</dict>
+			<key>Processor</key>
+			<string>DeprecationWarning</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
