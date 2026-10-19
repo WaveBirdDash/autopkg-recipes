@@ -22,7 +22,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		<string>https://docs-desktop.superhuman.com/releases/Superhuman-Docs-universal.dmg</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>2.9.0</string>
+	<string>0.5.0</string>
 	<key>Process</key>
 	<array>
 		<dict>
