@@ -31,8 +31,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 				<key>url</key>
 				<string>%URL%</string>
 			</dict>
-			<key>Comment</key>
-			<string>PackageRequired processor run verifies that a PKG variable is defined.</string>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
